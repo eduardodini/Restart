@@ -15,6 +15,7 @@
 		310604D22965AF180048D37C /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 310604D02965AF180048D37C /* chimeup.mp3 */; };
 		310604D92965B1670048D37C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604D82965B1670048D37C /* OnboardingView.swift */; };
 		310604DB2965B1740048D37C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604DA2965B1740048D37C /* HomeView.swift */; };
+		310604DD2965BBE60048D37C /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604DC2965BBE60048D37C /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		310604D72965B1250048D37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		310604D82965B1670048D37C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		310604DA2965B1740048D37C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		310604DC2965BBE60048D37C /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		310604D52965AFFB0048D37C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				310604DC2965BBE60048D37C /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310604DD2965BBE60048D37C /* CircleGroupView.swift in Sources */,
 				310604D92965B1670048D37C /* OnboardingView.swift in Sources */,
 				310604DB2965B1740048D37C /* HomeView.swift in Sources */,
 				310604C42965AE770048D37C /* ContentView.swift in Sources */,
