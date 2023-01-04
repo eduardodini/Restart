@@ -16,6 +16,7 @@
 		310604D92965B1670048D37C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604D82965B1670048D37C /* OnboardingView.swift */; };
 		310604DB2965B1740048D37C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604DA2965B1740048D37C /* HomeView.swift */; };
 		310604DD2965BBE60048D37C /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604DC2965BBE60048D37C /* CircleGroupView.swift */; };
+		310604DF2965CA9A0048D37C /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310604DE2965CA9A0048D37C /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		310604D82965B1670048D37C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		310604DA2965B1740048D37C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		310604DC2965BBE60048D37C /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		310604DE2965CA9A0048D37C /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		310604D62965B00F0048D37C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				310604DE2965CA9A0048D37C /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				310604DB2965B1740048D37C /* HomeView.swift in Sources */,
 				310604C42965AE770048D37C /* ContentView.swift in Sources */,
 				310604C22965AE770048D37C /* RestartApp.swift in Sources */,
+				310604DF2965CA9A0048D37C /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,6 +364,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
